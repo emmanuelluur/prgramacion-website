@@ -1,133 +1,59 @@
-<!doctype html>
-<html lang="en">
+<%- include base/head %>
+<main role="main">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Jekyll v3.8.5">
-  <title><%= tittle %></title>
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">SCRATCH</h1>
+      <h4>Qué es?</h4>
+      <p class="lead text-muted">Es un lenguaje de programación visual desarrollado por el Grupo Lifelong Kindergarten
+        del MIT Media Lab.​ Su principal característica consiste en que permite el desarrollo de habilidades mentales
+        mediante el aprendizaje de la programación sin tener conocimientos profundos sobre el código</p>
+      <p>
+        <a href="https://scratch.mit.edu/studios/9406335/" class="btn btn-primary my-2">Estudio Scratch</a>
+      </p>
+      <p>
+        <h4>Qué es un algoritmo? <small class="text-muted">Tip: activa subtitulos!</small></h4>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/6hfOvs8pY1k" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+      </p>
+    </div>
+  </section>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <div class="album py-5 bg-light">
+    <div class="container">
 
-  <!-- Custom styles for this template -->
-  <link href="stylesheets/style.css" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">Acerca del sitio</h4>
-            <p class="text-muted">Sitio creado para la enseñanza de la programación a niños usando SCRATCH como
-              lenguaje de programación.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Emmanuel</h4>
-            <ul class="list-unstyled">
-              <li><a href="https://twitter.com/emmanuelluur" class="text-white"> Twitter</a></li>
-              <li><a href="https://www.facebook.com/eluciourbina" class="text-white">Like en Facebook</a></li>
-              <li><a href="http://eluur.herokuapp.com" class="text-white"> Mi Web</a></li>
-            </ul>
-          </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1>Ejercicios</h1>
+          <hr>
         </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <strong>Aprende a programar</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">SCRATCH</h1>
-        <h4>Qué es?</h4>
-        <p class="lead text-muted">Es un lenguaje de programación visual desarrollado por el Grupo Lifelong Kindergarten
-          del MIT Media Lab.​ Su principal característica consiste en que permite el desarrollo de habilidades mentales
-          mediante el aprendizaje de la programación sin tener conocimientos profundos sobre el código</p>
-        <p>
-          <a href="https://scratch.mit.edu/studios/9406335/" class="btn btn-primary my-2">Estudio Scratch</a>
-        </p>
-        <p>
-          <h4>Qué es un algoritmo? <small class="text-muted">Tip: activa subtitulos!</small></h4>
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/6hfOvs8pY1k" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </p>
-      </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-12 text-center">
-              <h1>Ejercicios</h1>
-              <hr>
-          </div>
-          <!-- ejercicios -->
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <iframe src="https://scratch.mit.edu/projects/314621605/embed" allowtransparency="true" width="100%"
-                height="225" frameborder="0" scrolling="no" allowfullscreen></iframe>
-              <div class="card-body">
-                <h3>Animando una letra</h3>
-                <p class="card-text">Ejercicio para dar la bienvenida al mundo de la programación,
-                  usando una animación sencilla de una letra.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://scratch.mit.edu/projects/314621605"
-                      class="btn btn-sm btn-outline-secondary">Ver</a>
-                    <a href="/scratch/1" class="btn btn-sm btn-outline-secondary">Guía</a>
-                  </div>
-                  <small class="text-muted">Clase 15 mins, práctica 45 mins</small>
+        <!-- ejercicios -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <iframe src="https://scratch.mit.edu/projects/314621605/embed" allowtransparency="true" width="100%"
+              height="225" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            <div class="card-body">
+              <h3>Animando una letra</h3>
+              <p class="card-text">Ejercicio para dar la bienvenida al mundo de la programación,
+                usando una animación sencilla de una letra.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://scratch.mit.edu/projects/314621605" class="btn btn-sm btn-outline-secondary">Ver</a>
+                  <a href="/scratch/1" class="btn btn-sm btn-outline-secondary">Guía</a>
                 </div>
+                <small class="text-muted">Clase 15 mins, práctica 45 mins</small>
               </div>
             </div>
           </div>
-          <!-- fin ejercisios -->
         </div>
+        <!-- fin ejercisios -->
       </div>
     </div>
+  </div>
 
-  </main>
+</main>
 
-  <footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-        <a href="#">Ir al principio</a>
-      </p>
-      <p>Sitio creado bajo licencia open source</p>
-      <p>Este sitio usa <a href="https://getbootstrap.com/">Bootstrap</a> como libreria CSS visita<a
-          href="/docs/4.3/getting-started/introduction/">la página para aprender</a>.</p>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-</body>
-
-</html>
+<%- include base/foot %>
+<%- include base/end %>
